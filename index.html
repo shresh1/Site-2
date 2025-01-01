@@ -1,0 +1,63 @@
+
+<html>
+    <head>
+        <style>
+            .button1 {
+                background-color: #00239C;
+                color: #FFFFFF;
+                border: 2px solid #00239C;
+            }
+
+            .button1:hover {
+                background-color: #008CBA;
+                color: white;
+            }
+            .bodytext{
+                color:#00239C;
+                background-color: #d74894;
+                font-family:Fantasy;
+            }
+            .logo{
+                position:absolute;
+                top: 10px;
+                right:10px;
+            }
+            input[type="checkbox"] {
+                display: none;
+            }
+            input[type="checkbox"]:checked ~ #text {
+                color: #293015;
+            }
+            label {
+                padding: 10px 20px;
+                background-color: #00239C;
+                color: #FFFFFF;
+                border: 1px solid #ccc;
+                cursor: pointer;
+            }
+            label:hover {
+                background-color: #008CBA;
+                color: white;
+            }
+            .code{
+                color:#d74894;
+                font-size:32px;
+                font-weight:bold;
+                font-family:Arial Black;
+            }
+        </style>
+    </head>
+    <div class="logo">
+        <img src="https://i.imgur.com/HpJQeON_d.webp?maxwidth=760&fidelity=grand" alt="W3Schools.com" style="width:104px;height:142px;">
+    </div>
+    <body class="bodytext">
+        <br>
+        <h2>Congratulations! You have reached the second stage.</h2>
+        <br>
+        <p>This stage will be much harder. I cannot tell you the solution no matter how much i wish to. However, I can give you a clue. Look for the substance not the whole.</p>
+
+        <input type="checkbox" id="colorToggle">
+        <label for="colorToggle">Change Color</label>
+        <p id="text" class="code">159823</p>
+    </body>
+</html>
